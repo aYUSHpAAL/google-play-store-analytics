@@ -1,0 +1,27 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# MySQL local data dumps (if any generated locally)
+*.sql.bak
+
+# Large raw data is tracked intentionally in data/raw for reproducibility;
+# uncomment below if you'd rather not commit raw data to git
+# data/raw/*.csv
